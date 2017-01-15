@@ -4,8 +4,8 @@ require "formula"
 
 class Trainscanner < Formula 
   homepage "https://github.com/vitroid/TrainScanner" 
-  url "https://github.com/vitroid/TrainScanner/archive/TrainScanner-v0.8.5.zip" 
-  sha256 "eadc9ad89700968d9d80630c6ed7b2bae19e2dc8" 
+  url "https://github.com/vitroid/TrainScanner/archive/v0.8.5.tar.gz" 
+  sha256 "fb97c6f30c380505d6a207f2cc1742065a632feb" 
  
   depends_on "pyqt5"
   depends_on "python3"
