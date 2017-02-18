@@ -6,7 +6,9 @@ class Trainscanner < Formula
   homepage "https://github.com/vitroid/TrainScanner"
   url "https://github.com/vitroid/homebrew-TrainScanner/raw/master/empty.tar.gz" 
   sha256 "aaa57145a9e9e7e15a0800cf83003899146e8842" 
- 
+
+  version "v0.1.0"
+  
   depends_on "pyqt5"
   depends_on "python3"
   depends_on "opencv3" => ["with-ffmpeg", "with-tbb", "with-python3", "HEAD"]
