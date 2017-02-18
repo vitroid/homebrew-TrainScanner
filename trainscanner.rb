@@ -5,7 +5,7 @@ require "formula"
 class Trainscanner < Formula 
   homepage "https://github.com/vitroid/TrainScanner"
   url "https://github.com/vitroid/homebrew-TrainScanner/raw/master/empty-0.1.0.tar.gz" 
-  sha256 "aaa57145a9e9e7e15a0800cf83003899146e8842" 
+  sha256 "b292a0d9941bf0c8161e0077356382ceb8286aa3521488e21abd6d8f4e02a293" 
 
   depends_on "pyqt5"
   depends_on "python3"
