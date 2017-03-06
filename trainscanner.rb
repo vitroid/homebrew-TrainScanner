@@ -9,11 +9,12 @@ class Trainscanner < Formula
   sha256 "6fe38c9a5a59d47f0fa69cbf13d58d44c589a416d4159523a2c211f2b9596f7c" 
 
   depends_on "pyqt5"
-#  depends_on "python3"
+  depends_on "python3"
   depends_on "opencv3" => ["with-ffmpeg", "with-tbb", "with-python3", "HEAD"]
  
   def install 
-    system "make", "install"
+    system "brew", "link", "opencv3", "--force"
+    system "pip3", "install", "trainscanner"
   end 
  
   test do 
