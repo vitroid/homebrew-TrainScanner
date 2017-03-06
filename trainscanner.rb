@@ -6,7 +6,7 @@ class Trainscanner < Formula
   homepage "https://github.com/vitroid/TrainScanner"
   #It is dummy. Installation will be performed with pip.
   url "https://github.com/vitroid/homebrew-TrainScanner/archive/v0.1.4.zip" 
-  sha256 "eb142499de6cfbb68f556c8d45772605bb4a5162631b17feabfcb89de00d59a2" 
+  sha256 "a75e4f71b5ebf26553c53c5bbe5c2883ebd5e9d05b93d54b09aa8cbb5fea24c2" 
 
   depends_on "pyqt5"
   depends_on "python3"
